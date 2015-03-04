@@ -30,4 +30,9 @@ curl http://localhost:8888/primesui/populate/20000
 And then let's test the API : 
 
 ````bash
+curl http://localhost:8888/primesui/check
+curl http://localhost:8888/primesui/factors
+curl http://localhost:8888/primesui/primes/500
 ```
+
+
