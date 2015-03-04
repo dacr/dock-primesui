@@ -21,4 +21,13 @@ docker run -it -d  \
 	dacr/dock-primesui
 ```
 
+Populate the database (by default limited to up 2000000L) : 
 
+```bash
+curl http://localhost:8888/primesui/populate/20000
+```
+
+And then let's test the API : 
+
+````bash
+```
