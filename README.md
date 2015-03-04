@@ -12,6 +12,7 @@ docker run -d --name primesdb \
 ```
 
 Then starts the primesui application, linked to the previously created database :
+
 ```bash
 docker run -it -d  \
 	-p 127.0.0.1:8888:8080 \
