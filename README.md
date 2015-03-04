@@ -17,7 +17,7 @@ docker run -it -d  \
 	-p 127.0.0.1:8888:8080 \
 	--name pui \
 	--link primesdb:docker_primes_db \
-	primesui
+	dacr/dock-primesui
 ```
 
 
