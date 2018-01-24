@@ -1,4 +1,4 @@
-FROM tomcat:7-jre7
+FROM tomcat:7-jre8-alpine
 
 MAINTAINER David CROSSON <crosson.david@gmail.com>
 
